@@ -6,7 +6,7 @@ const PlayerAdd = (props) => {
     return (
         <div className = "player-style">
            <h2>name:{add}</h2>
-           <h3>salary : {salary}</h3> 
+           <h3>salary : ${salary}</h3> 
         </div>
     );
 };

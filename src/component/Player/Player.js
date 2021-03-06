@@ -11,9 +11,9 @@ const Player = (props) => {
     return (
         <div className="player-style" style={addStyle} align="center">
             <img style ={playerStyle} src= {image} alt=""/>
-            <h4>{name}</h4>
+            <h4 className="text-primary">{name}</h4>
             <h5>Salary : ${salary}</h5>
-            <button className="button" onClick={() => handleAddPlayer(props.player)}><FontAwesomeIcon icon={faCheckCircle} />  Add Player</button>
+            <button btn btn-primary className="button" onClick={() => handleAddPlayer(props.player)}><FontAwesomeIcon icon={faCheckCircle} />  Add Player</button>
         </div>
     );
 };
